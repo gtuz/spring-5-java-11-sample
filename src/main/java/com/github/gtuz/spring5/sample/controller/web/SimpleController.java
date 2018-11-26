@@ -11,4 +11,9 @@ public class SimpleController {
     public String simpleWelcome(){
         return "simple-welcome-page";
     }
+
+    @RequestMapping("welcome-react")
+    public String simpleWelcomeReact(){
+        return "simple-welcome-page-react";
+    }
 }

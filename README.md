@@ -14,3 +14,5 @@ Sample project to show the usage of spring 5 and java 11
 `sudo update-alternatives --install /usr/bin/javap javap /usr/lib/jvm/jdk-11.0.1/bin/javap 1`
 
 `sudo update-alternatives --install /usr/bin/javadoc javadoc /usr/lib/jvm/jdk-11.0.1/bin/javadoc 1`
+
+Currently following https://github.com/spring-guides/tut-react-and-spring-data-rest/tree/master/basic
