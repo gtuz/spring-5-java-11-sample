@@ -1,4 +1,4 @@
-package com.github.gtuz.spring5java11sample;
+package com.github.gtuz.spring5.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

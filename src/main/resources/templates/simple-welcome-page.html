@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf works</title>
+    <script>
+        var evtSource = new EventSource("http://localhost:8080/hello/random");
+        evtSource.onmessage = function (event) {
+            var data = JSON.parse(event.data);
+            var container = document.getElementById("container");
+            container.innerHTML = data;
+        }
+    </script>
+</head>
+<body>
+    <div id="container">Waiting...</div>
+</body>
+</html>

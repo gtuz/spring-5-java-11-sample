@@ -1,4 +1,4 @@
-package com.github.gtuz.spring5java11sample;
+package com.github.gtuz.spring5.sample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
