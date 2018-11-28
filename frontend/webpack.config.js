@@ -13,6 +13,7 @@ module.exports = {
     mode: 'development',
     output: {
         path: PATHS.build,
+        publicPath: '/assets/',
         filename: 'app-bundle.js'
     },
     module: {

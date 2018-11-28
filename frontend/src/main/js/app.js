@@ -11,7 +11,7 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div>Hello from React</div>
+			<div>Hello from React!</div>
 		)
 	}
 }
