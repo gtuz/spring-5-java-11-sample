@@ -1,10 +1,7 @@
 package com.github.gtuz.spring5.sample.controller.rest;
 
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
@@ -12,6 +9,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("hello")
+@CrossOrigin
 public class HelloController {
 
     private static Random generator = new Random();
